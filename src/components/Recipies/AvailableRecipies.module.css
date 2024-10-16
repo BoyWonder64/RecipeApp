@@ -1,0 +1,49 @@
+.recipies {
+  max-width: 60rem;
+  width: 90%;
+  margin: 2rem auto;
+  animation: meals-appear 1s ease-out forwards;
+  background-color: #fff; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+  padding: 2rem; 
+}
+
+.recipies ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.recipies li {
+  padding: 0.5rem 0; 
+  border-bottom: 1px solid #eee; 
+}
+
+.recipies li:last-child {
+  border-bottom: none; 
+}
+
+.RecipiesIsLoading {
+  text-align: center;
+  color: #ffffff; 
+  font-size: 1.2rem; 
+}
+
+.RecipiesError {
+  text-align: center;
+  color: #e74c3c; 
+  font-size: 1.2rem; 
+  margin-top: 1rem; 
+}
+
+@keyframes meals-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
