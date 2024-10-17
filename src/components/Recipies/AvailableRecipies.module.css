@@ -1,8 +1,8 @@
 .recipies {
-  max-width: 60rem;
-  width: 90%;
-  margin: 2rem auto;
-  animation: meals-appear 1s ease-out forwards;
+  max-width: auto;
+  width: auto;
+  margin: .5rem auto;
+  animation: recipes-appear 1s ease-out forwards;
   background-color: #fff; 
   border-radius: 8px; 
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
@@ -20,9 +20,10 @@
   border-bottom: 1px solid #eee; 
 }
 
-.recipies li:last-child {
-  border-bottom: none; 
+.recipies li h2{
+  font-size: 250%;
 }
+
 
 .RecipiesIsLoading {
   text-align: center;
@@ -37,7 +38,7 @@
   margin-top: 1rem; 
 }
 
-@keyframes meals-appear {
+@keyframes recipes-appear {
   from {
     opacity: 0;
     transform: translateY(3rem);

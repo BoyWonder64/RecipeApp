@@ -62,13 +62,13 @@ const AvailableRecipies = () => {
   }
 
     const recipieList = recipies.map((recipie) => (
-      <li key={recipie.id}>
-        <h2>{recipie.name}</h2>
-        <h3>Ingredients:</h3>
-        <p>{recipie.ingredients}</p>
-        <h3>Instructions:</h3>
-        <p>{recipie.steps}</p>
-      </li>
+        <li key={recipie.id}>
+          <h2>{recipie.name}</h2>
+          <h3>Ingredients:</h3>
+          <p>{recipie.ingredients}</p>
+          <h3>Instructions:</h3>
+          <p>{recipie.steps}</p>
+        </li>
     ));
 
   return (

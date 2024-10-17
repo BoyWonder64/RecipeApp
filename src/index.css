@@ -10,9 +10,13 @@ html {
 
 body {
   margin: 0;
-  background-color: #3f3f3f;
+  background-color: #ffffff;
+  background-image: url("../src/assets/backgroundFood.jpg");
   display: flex;
   justify-content: center;
-  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 
